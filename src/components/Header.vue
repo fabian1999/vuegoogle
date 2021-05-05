@@ -1,21 +1,19 @@
 <template>
-  <div class="nav-bar">
-    <ul class="horizontal-list">
-      <li>Gmail</li>
-      <li>Imagini</li>
-      <li class="margin-left">
-        <img
-          src="https://cdn.iconscout.com/icon/free/png-512/apps-46-461702.png"
-        />
-      </li>
-      <li>
-        <img
-          src="https://lh3.googleusercontent.com/ogw/ADGmqu_WLnXfFMfaBwsw4ify8JXDjRDBrmuy9Y4LGxD36Q=s32-c-mo"
-          class="account-img"
-        />
-      </li>
-    </ul>
-  </div>
+  <ul class="horizontal-list">
+    <li>Gmail</li>
+    <li>Imagini</li>
+    <li class="margin-left">
+      <img
+        src="https://cdn.iconscout.com/icon/free/png-512/apps-46-461702.png"
+      />
+    </li>
+    <li>
+      <img
+        src="https://lh3.googleusercontent.com/ogw/ADGmqu_WLnXfFMfaBwsw4ify8JXDjRDBrmuy9Y4LGxD36Q=s32-c-mo"
+        class="account-img"
+      />
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -33,7 +31,7 @@ export default {
 }
 
 .horizontal-list li {
-  padding-left: 10px;
+  padding-left: 13.5px;
   display: inline;
   font-family: arial, sans-serif;
   font-size: 13px;

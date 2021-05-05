@@ -81,4 +81,9 @@ export default {
   text-decoration: none;
   padding-left: 5px;
 }
+
+button {
+    margin-left: 2px;
+    margin-right: 2px;
+}
 </style>
