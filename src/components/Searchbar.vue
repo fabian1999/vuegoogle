@@ -1,6 +1,6 @@
 <template>
   <div class="center">
-    <img class="logo-img" src="images/Google_2015_logo.svg.png" />
+    <img class="logo-img" src="../pictures/Google_2015_logo.svg.png" />
     <input class="search-bar" />
     <div class="search-buttons">
       <button class="styled-buttons">Căutare Google</button>
