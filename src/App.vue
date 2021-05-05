@@ -3,6 +3,7 @@
     <body>
       <div class="container">
         <Header />
+        <Searchbar />
       </div>
     </body>
   </html>
@@ -10,11 +11,13 @@
 
 <script>
 import Header from "./components/Header.vue";
+import Searchbar from "./components/Searchbar.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    Searchbar,
   },
 };
 </script>
